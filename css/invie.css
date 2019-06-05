@@ -1,0 +1,263 @@
+/** 
+	width: tamaño;
+	height: tamaño;
+	padding: 10px;
+	padding-top: 10px;
+	padding-right: 13px;
+	padding-left: 15px;
+	padding-bottom:5 px;
+	padding: 10px 13px 5 px 15px;
+	
+	margin:10px;
+	margin-top: 10px;
+	margin-rigth: 13px;
+	margin-left: 15px;
+	margin-buttom: 5px;
+	margin: 10px 13px 5px 15px;
+	border:2px solid red;
+**/
+
+
+body{
+
+font-family: 'Open Sans Condensed', sans-serif;
+
+margin:0;
+
+ 
+ }
+
+.titulo{
+	
+	font-size: 70px;
+	font-family: 'Roboto Condensed', sans-serif;	
+	margin-bottom:0px;
+	margin-top: 70px;
+}
+
+.boton{
+	border-radius:5px;
+	border:none;
+	background:#fd324e;
+	color:white;
+	padding:7px;
+	
+	
+}
+
+.title-a{
+	
+	font-size:35px;
+	margin-top:0;
+	display:inline-block;
+}
+
+.title-b{
+	font-size: 50px;
+	margin-bottom:-7px;
+	display:inline-block;
+	margin-left:19;
+}
+
+.title-c{
+	font-size: 50px;
+	margin-bottom:-12px;
+	display:inline-block;
+	margin-left:-20;
+	margin-top:-6px;
+}
+
+.guitarras{
+	
+color:#1F313C;
+
+	
+
+}
+
+.guitarra{
+
+	margin:10px;
+	padding:10px;
+		
+	border:1px solid #1F313C;
+	border-radius: 8px;
+}
+
+.guitarra2{
+
+	margin:10px;
+	padding:10px;
+		
+	border:1px solid #1F313C;
+	border-radius:8px;
+}
+.guitarra h3{
+	margin-left:19px;
+}
+.guitarra2 h3{
+	margin-left:-20px;
+}
+.guitarras h2{
+	font-size: 40px;
+    margin-left: 10px;
+    display: inline-block;
+		
+}
+
+.header{
+	
+	background:#273b47;
+	
+}
+.header .menu{
+	color:white;
+}
+.derecha{
+	float: right;
+    position: relative;
+    top: -80px;
+
+}
+
+.izquierda{
+	float:left;
+	position:relative;
+	top:-17px;
+	left:-21px;
+	
+
+}
+
+.lista{
+	
+
+}
+.portada{
+	
+	background-image:url('../images/background.png');
+	color: white;
+	padding: 20px;
+	
+}
+
+.portada button{
+	
+	margin-bottom:70px;
+	
+}
+
+.menu{
+	font-size: 24px;
+	display:inline-block;
+}
+
+.menu li{
+	
+	display:inline-block;
+	margin-left:30px;
+}
+
+.logotipo{
+	display:inline-block;
+}
+
+
+.footer .contenedor{
+	display:flex;
+	justify-content:space-between;
+}
+.contenedor{
+	
+	width:800px;
+	margin:auto;
+}
+.footer{
+	
+	background: #273b47;
+}
+
+.contacto{
+	
+	display:flex;
+	width: 200px;
+	flex-wrap:wrap;
+	align-items: flex-start;
+	margin-right:  
+}
+
+.contacto img{
+	display:block;
+	}
+
+.contacto strong{
+	display: block;
+	
+
+}	
+.contacto a{
+	
+	color:white;
+	text-decoration: none;
+	margin: 10px 10px 10px 0;
+	
+}
+
+
+.formulario{
+	display:flex;
+	width:400px;
+	color:white;
+	margin-right: 84px;
+}
+
+.col1 , .col2{
+	display:flex;
+	flex-direction:column;
+
+}
+
+.col1{
+	
+	margin-right:72px;
+}
+.col2{
+	align-items: flex-start;
+}
+.intereses label{
+	
+	font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses{
+	margin-bottom:10px;
+}
+
+.sexo{
+	margin-top:10px;
+}
+
+table{
+	width:100%;
+	margin-bottom: 70px;
+    margin-top: 70px;
+
+}
+
+th{
+	background:#273b47;
+	color:white;
+
+}
+
+td{
+	
+	padding:20px;
+	
+}
+
+table,td,th{
+	border:1px solid #273b47;
+	border-collapse:collapse,
+
+}
